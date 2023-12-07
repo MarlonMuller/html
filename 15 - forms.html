@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!--
+    GET  = pelo url
+    POST = envia "escondido"
+-->
+
+
+<body>
+    <h1>Digite seu endereço:</h1>
+    <form action="" method="get" enctype="multipart/form-data">
+        <label>Rua:</label>
+        <input type="text" name="rua" autocomplete="street-address">
+
+        <label>Número:</label>
+        <input type="number" name="numero">
+
+        <input type="file">
+
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar dados</button>
+    </form>
+</body>
+</html>
